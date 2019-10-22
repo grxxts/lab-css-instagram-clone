@@ -12,7 +12,7 @@ body {
 
 main  {
   width: 1000px;
-  margin: 70px 20px 1px 40px;
+  margin: 70px 40px 1px 40px;
   border: 20px;
   padding: 10px;
   display: flex;
@@ -64,7 +64,7 @@ span {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: flex-end 
+  align-content;: flex-end 
 }
 
 .log-btn {
@@ -80,5 +80,7 @@ span {
 .inline-list {
   display: inline-flex;
   flex-direction: row;
-  align-items: space-between;
+  align-content: space-between;
+  text-decoration: none;
+
 }
